@@ -8,8 +8,9 @@ test_df.head()
 
 # COMMAND ----------
 
-test_df.plot.bar(y='volume')
+# test_df.plot.bar(y='volume')
 
 # COMMAND ----------
 
+test_df['close'].max()
 
